@@ -180,6 +180,24 @@ namespace Assignment
             //}
             #endregion
 
+            //8- Write a program that allows to user to insert number then print all even numbers
+            //between 1 to this number
+
+            #region Question8
+            //int Number;
+            //Number = int.Parse(Console.ReadLine());
+            //for (int i = 0; i <= Number; i++)
+            //{
+            //    if (i % 2 == 0)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+
+            #endregion
+
+
+
 
 
 
