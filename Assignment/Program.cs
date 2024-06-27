@@ -465,7 +465,32 @@ namespace Assignment
             //}
             #endregion
 
+            //17- Create a program that asks the user to input three points (x1, y1), (x2, y2), and (x3, y3), and determines whether these points lie on a single straight line.
+            #region Questoin17
+            //int x1 = Convert.ToInt32(Console.ReadLine());
+            //int y1 = Convert.ToInt32(Console.ReadLine());
 
+            
+            //int x2 = Convert.ToInt32(Console.ReadLine());
+            //int y2 = Convert.ToInt32(Console.ReadLine());
+
+         
+            //int x3 = Convert.ToInt32(Console.ReadLine());
+            //int y3 = Convert.ToInt32(Console.ReadLine());
+
+            //int m1 = (y2 - y1) * (x3 - x2);
+            //int m2 = (y3 - y2) * (x2 - x1);
+            //int m3 = (y3 - y1) * (x3 - x1);
+
+            //if (m1 == m2 && m2 == m3)
+            //{
+            //    Console.WriteLine("Points are collinear ");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Points are not collinear");
+            //}
+            #endregion
         }
     }
 }
