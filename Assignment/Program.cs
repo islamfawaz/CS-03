@@ -225,7 +225,7 @@ namespace Assignment
 
             //    10 - Write a program to enter marks of five subjects and calculate total,
             //    average and percentage.
-             #region Question10
+            #region Question10
 
             //int[] marks = new int[5];
             //int total = 0;
@@ -246,7 +246,55 @@ namespace Assignment
 
             #endregion
 
- 
+            // 11 - Write a program to input the month number and print the number of days in that month.
+
+            #region Question11
+            //int month = int.Parse(Console.ReadLine());
+            //int day = 0;
+            //switch (month)
+            //{
+            //    case 1:
+            //    case 3:
+            //    case 5:
+            //    case 7:
+            //    case 8:
+            //    case 10:
+            //    case 12:
+            //     day = 31;
+            //        break;
+
+            //    case 4:
+            //    case 6:
+            //    case 9:
+            //    case 11:
+            //        day = 30;
+            //        break;
+
+            //        case 2:
+            //        Console.WriteLine("Enter the year to check 29 or 28:");
+            //        int year = int.Parse(Console.ReadLine());
+            //        if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
+            //        {
+            //            day = 29;
+            //            Console.WriteLine("leap year");
+            //        }
+            //        else
+            //        {
+            //            day = 28;
+            //        }
+            //        break;
+            //       default:
+            //        Console.WriteLine("Invalid month number");
+            //        return;
+
+            //}
+            //Console.WriteLine($"The days in month {month} is: {day}");
+
+
+            #endregion
+
+            
+
 
 
 
