@@ -387,6 +387,56 @@ namespace Assignment
 
             #endregion
 
+
+            //15- Write a program in C# Sharp to find prime numbers within a range of numbers.
+            //using Sieve of Eratosthenes
+            #region Question15
+            Console.Write("Input starting number of range: ");
+            int start = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Input ending number of range: ");
+            int end = Convert.ToInt32(Console.ReadLine());
+
+            if (start < 2)
+            {
+                start = 2;
+            }
+
+            bool[] isPrime = new bool[end + 1];
+            for (int i = 2; i <= end; i++)
+            {
+                isPrime[i] = true;
+            }
+
+
+            for (int p = 2; p * p <= end; p++)
+            {
+                if (isPrime[p] == true)
+                {
+                    for (int i = p * p; i <= end; i += p)
+                    {
+                        isPrime[i] = false;
+                    }
+                }
+            }
+            Console.WriteLine($"The prime numbers between {start} and {end} are:");
+            for (int i = start; i <= end; i++)
+            {
+                if (isPrime[i])
+                {
+                    Console.Write(i + " ");
+                }
+            }
+            Console.WriteLine();
+            #endregion
+
+
+
+
+
+
+            // 16- . Write a program in C# Sharp to convert a decimal number into binary without using an array.
+
         }
     }
 }
