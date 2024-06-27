@@ -350,7 +350,14 @@ namespace Assignment
 
             #endregion
 
-
+            //13- Write a program to allow the user to enter a string and print the REVERSE of it.
+            #region Question13
+            //string str =Console.ReadLine();
+            //char[] arrayOfChar = str.ToCharArray();
+            //Array.Reverse(arrayOfChar);
+            //string reversed = new string(arrayOfChar);
+            //Console.WriteLine(reversed); 
+            #endregion
 
         }
     }
