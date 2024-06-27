@@ -293,9 +293,62 @@ namespace Assignment
 
             #endregion
 
-            
 
 
+            //12- Write a program to create a Simple Calculator.
+
+            #region Question12
+            //Console.WriteLine("Enter the first Num");
+            //double num1 = double.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Enter an operator [+, -, *, /,%]");
+            //char operation = Console.ReadLine()[0];
+
+            //Console.WriteLine("Enter the second Num");
+            //double num2 = double.Parse(Console.ReadLine());
+
+            //double result = 0;
+            //bool flag = true;
+
+            //switch (operation)
+            //{
+            //    case '+':
+            //        result = num1 + num2;
+            //        break;
+            //    case '-':
+            //        result = num1 - num2;
+            //        break;
+            //    case '*':
+            //        result = num1 * num2;
+            //        break;
+            //    case '/':
+            //        if (num2 != 0)
+            //        {
+            //            result = num1 / num2;
+            //        }
+            //        else
+            //        {
+            //            Console.WriteLine("Error: Division by zero is not allowed.");
+            //            flag = false;
+            //        }
+            //        break;
+            //    case '%':
+            //        result = num1 % num2;
+            //        break;
+
+
+            //    default:
+            //        Console.WriteLine("Error");
+            //        flag = false;
+            //        break;
+            //}
+
+            //if (flag)
+            //{
+            //    Console.WriteLine($"Result: {num1} {operation} {num2} = {result}");
+            //}
+
+            #endregion
 
 
 
