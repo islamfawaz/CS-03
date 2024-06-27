@@ -222,7 +222,31 @@ namespace Assignment
 
             #endregion
 
-           
+
+            //    10 - Write a program to enter marks of five subjects and calculate total,
+            //    average and percentage.
+             #region Question10
+
+            //int[] marks = new int[5];
+            //int total = 0;
+
+            //Console.WriteLine("Enter marks of five subjects:");
+
+            //for (int i = 0; i < 5; i++)
+            //{
+            //    marks[i] = int.Parse(Console.ReadLine());
+            //    total += marks[i];
+            //}
+            //int average = total / 5;
+            //int percentage = (total / 500) * 100;
+
+            //Console.WriteLine($"Total marks = {total}");
+            //Console.WriteLine($"Average Marks = {average}");
+            //Console.WriteLine($"Percentage = {percentage}");
+
+            #endregion
+
+ 
 
 
 
