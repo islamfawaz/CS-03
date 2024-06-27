@@ -1,5 +1,6 @@
 ﻿using static System.Runtime.InteropServices.JavaScript.JSType;
 using System.ComponentModel;
+using System.Drawing;
 
 namespace Assignment
 {
@@ -357,6 +358,33 @@ namespace Assignment
             //Array.Reverse(arrayOfChar);
             //string reversed = new string(arrayOfChar);
             //Console.WriteLine(reversed); 
+            #endregion
+
+            //14- Write a program to allow the user to enter int and print the REVERSED of it.
+            #region Question14
+            //int num = int.Parse(Console.ReadLine());
+            //bool isNegative = num < 0;
+
+            //if (isNegative)
+            //{
+            //    num = -num; 
+            //}
+            //int reversedNum = 0;
+
+            //while (num > 0)
+            //{
+            //    int digit = num % 10; 
+            //    reversedNum = reversedNum * 10 + digit;
+            //    num /= 10;
+            //}
+
+            //if (isNegative)
+            //{
+            //    reversedNum = -reversedNum;
+            //}
+
+            //Console.WriteLine(reversedNum);
+
             #endregion
 
         }
