@@ -164,6 +164,21 @@ namespace Assignment
 
             #endregion
 
+            //7- Write a program that allows the user to insert an integer then 
+            //   print a multiplication table up to 12.
+            //   Example
+            //Input: 5
+            // Outputs: 5 10 15 20 25 30 35 40 45 50 55 60
+
+
+            #region Question7
+            //int Number;
+            //Number= int.Parse(Console.ReadLine());
+            //for (int i = 1; i <=12; i++)
+            //{
+            //  Console.WriteLine(Number*i);
+            //}
+            #endregion
 
 
 
