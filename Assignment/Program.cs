@@ -195,8 +195,34 @@ namespace Assignment
             //}
 
             #endregion
+            //9- Write a program that takes two integers then prints the power.
+            #region Question9
+
+            //Console.WriteLine("Enter the base (x):");
+            //int x = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Enter the exponent (n):");
+            //int n = int.Parse(Console.ReadLine());
+
+            //int result = 1;
+            //int baseValue = x;  
+
+            //while (n > 0)
+            //{
+            //    if (n % 2 == 1)
+            //    {
+            //        result *= x;
+            //    }
+            //    x = x * x;
+            //    n = n / 2;
+            //}
+
+            //Console.WriteLine(result);
 
 
+            #endregion
+
+           
 
 
 
