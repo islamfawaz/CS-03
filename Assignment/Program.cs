@@ -1,4 +1,7 @@
-﻿namespace Assignment
+﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+using System.ComponentModel;
+
+namespace Assignment
 {
     internal class Program
     {
@@ -114,38 +117,56 @@
             //then print (vowel) otherwise print (consonant)
 
             #region Question5
-           // char letter;
-           //letter= char.Parse(Console.ReadLine());
-           // switch (letter) {
-           //     case 'a':
-           //     case 'A':
-           //         Console.WriteLine("vowel");
-           //         break;
-           //     case 'e':
-           //     case 'E':
-           //         Console.WriteLine("vowel");
-           //         break;
-           //     case 'i':
-           //     case 'I':
+            // char letter;
+            //letter= char.Parse(Console.ReadLine());
+            // switch (letter) {
+            //     case 'a':
+            //     case 'A':
+            //         Console.WriteLine("vowel");
+            //         break;
+            //     case 'e':
+            //     case 'E':
+            //         Console.WriteLine("vowel");
+            //         break;
+            //     case 'i':
+            //     case 'I':
 
-           //         Console.WriteLine("vowel");
-           //         break;
-           //     case 'o':
-           //     case 'O':
-           //         Console.WriteLine("vowel");
-           //         break;
-           //     case 'u':
-           //     case 'U':
-           //         Console.WriteLine("vowel");
-           //         break;
-           //     default:
-           //         Console.WriteLine("consonant");
-           //         break;
+            //         Console.WriteLine("vowel");
+            //         break;
+            //     case 'o':
+            //     case 'O':
+            //         Console.WriteLine("vowel");
+            //         break;
+            //     case 'u':
+            //     case 'U':
+            //         Console.WriteLine("vowel");
+            //         break;
+            //     default:
+            //         Console.WriteLine("consonant");
+            //         break;
 
 
-          //  }
+            //  }
 
             #endregion
+
+            //  6 - Write a program that allows the user to insert an integer then print all numbers
+            //  between 1 to that number.
+
+
+            #region Question6
+            //int Number;
+            //Number=int.Parse(Console.ReadLine());
+            //for (int i = 1; i <= Number; i++)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            #endregion
+
+
+
+
 
         }
     }
