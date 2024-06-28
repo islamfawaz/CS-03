@@ -527,6 +527,28 @@ namespace Assignment
             //}
             #endregion
 
+
+            //19- . Write a program that prints an identity matrix using for loop,
+            //in other words takes a value n from the user and shows the identity table of size n * n.
+
+            #region Question19
+            //Console.WriteLine("Enter the size of matrix ");
+            //int n = int.Parse(Console.ReadLine());
+
+            //for (int i = 0; i < n; i++)
+            //{
+            //    for (int j = 0; j < n; j++)
+            //    {
+            //        if (i == j)
+            //            Console.Write("1 ");
+            //        else
+            //            Console.Write("0 ");
+            //    }
+            //    Console.WriteLine();
+            //}
+                #endregion
+
+
+            }
         }
     }
-}
