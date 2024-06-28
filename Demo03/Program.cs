@@ -313,7 +313,51 @@
             //    // Flag = int.TryParse(Console.ReadLine(), out Number);
             //} while (int.TryParse(Console.ReadLine(), out Number) || Number % 2 == 1);
 
+            //int i = 1;
+            //while (i<=10)
+            //{
+            //    Console.WriteLine(i);
+            //    i++;
+            //}
+
             #endregion
-        }
+
+            #region Video12
+            //// String is a Class [Reference Type], Internally is an Array of Chars
+            //string Name01 = "Ahmed"; // Has 2 References
+            //string Name02 = "Omar"; // Unreachable Object
+
+            //Console.WriteLine($"Name01 = {Name01}");
+            //Console.WriteLine($"HashCode of Name01 = {Name01.GetHashCode()}");
+
+            //Console.WriteLine($"Name02 = {Name02}");
+            //Console.WriteLine($"HashCode of Name02 = {Name02.GetHashCode()}");
+
+            //Name02 = Name01;
+            //Console.WriteLine("After Name02 = Name01");
+            //Console.WriteLine($"Name01 = {Name01}");
+            //Console.WriteLine($"HashCode of Name01 = {Name01.GetHashCode()}");
+
+            //Console.WriteLine($"Name02 = {Name02}");
+            //Console.WriteLine($"HashCode of Name02 = {Name02.GetHashCode()}");
+
+
+
+            //// String is an Immutable Type --> Can't be Changed [Internally is an Array of Chars]
+            //string Name01 = "Ahmed"; // Has 2 References
+            //string Name02 = "Omar";
+
+            //Name02 = Name01; // Now both Name01 and Name02 reference "Ahmed"
+            //                 // Console.WriteLine("*** After Name02 = Name01 ***");
+
+            //Name01 = "Yassmin"; // Changing Name01 to "Yassmin"
+
+            //Console.WriteLine($"Name02: {Name02}"); // Outputs "Ahmed"
+       // }
+
+        #endregion
+
+
+    }
     }
 }
