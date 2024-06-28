@@ -2,6 +2,12 @@
 {
     internal class Program
     {
+        public class Person
+        {
+            public int Id { get; set; }
+            public string Name { get; set; }
+        }
+
         static void Main(string[] args)
         {
             #region Video1
@@ -135,6 +141,35 @@
             //        break;
             //}
             #endregion
-        }
+            #region Video4
+            //object input = new object();
+            //input = 5; // Boxing
+            //input = new Person() { Id = 100, Name = "Ahmed" };
+
+            //switch (input)
+            //{
+            //    // This checks if input is of type int and greater than 1
+            //    case int localInput when localInput > 1:
+            //        Console.WriteLine("integer input");
+            //        break;
+
+            //    // This checks if input is of type double
+            //    case double localInput:
+            //        Console.WriteLine("double input");
+            //        break;
+
+            //    // This checks if input is of type Person with Id 100
+            //    case Person person when person.Id == 100:
+            //        Console.WriteLine(person.Name);
+            //        break;
+
+            //    // Default case for any other input types
+            //    default:
+            //        Console.WriteLine("Unknown input");
+            //        break;
+
+                    #endregion
+
+            }
     }
 }
