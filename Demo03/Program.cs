@@ -433,13 +433,36 @@ namespace Demo03
             #endregion
 
             #region Video17
-            int[][] Marks = new int[3][];
-            Marks[0] = new int[3] { 9, 8, 3 };
-            Marks[1] = new int[2] { 7, 2 };
-            Marks[2] = new int[1] { 5 };
+            //int[][] Marks = new int[3][];
+            //Marks[0] = new int[3] { 9, 8, 3 };
+            //Marks[1] = new int[2] { 7, 2 };
+            //Marks[2] = new int[1] { 5 };
             #endregion
 
+            #region Video18
+            //int[] Arr01 = { 1, 2, 3 };
+            //int[] Arr02 = new int[2];
 
+            // Exploring array operations
+
+            #region Array Operations
+
+            //Array.Sort(Arr01); // Sorts Arr01 in ascending order
+            //Array.Copy(Arr01, Arr02, 2); // Copies 2 elements from Arr01 to Arr02
+            //Array.Clear(Arr01, 0, Arr01.Length); // Clears Arr01
+            //Array.ConstrainedCopy(Arr01, 1, Arr02, 0, 2); // Copies 2 elements from Arr01 starting at index 1 to Arr02
+            //                                              // Arr02 = (int[]) Array.CreateInstance(typeof(int), 10); // Creates a new int array with 10 elements
+            //                                              // int[,,] Arr03 = (int[,,]) Array.CreateInstance(typeof(int), 2, 4, 3); // Creates a new 3-dimensional int array
+            //                                              // int index = Array.LastIndexOf(Arr01, 10); // Finds the last index of value 10 in Arr01
+
+            #endregion
+
+            // Output Arr02 elements
+            //foreach (int number in Arr02)
+            //{
+            //    Console.WriteLine(number);
+            //}
+            #endregion
         }
     }
 }
