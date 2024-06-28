@@ -84,6 +84,57 @@
             //}
             #endregion
 
+            #region Video3
+
+            //// Prompt user for name
+            //Console.Write("Please Enter Your Name: ");
+            //string Name = Console.ReadLine() ?? "No Name";
+
+            //// Using if-else
+            //if (Name == "Ahmed")
+            //{
+            //    Console.WriteLine("Hello Ahmed");
+            //}
+            //else if (Name == "Omar")
+            //{
+            //    Console.WriteLine("Hello Omar");
+            //}
+            //else if (Name == "Aya")
+            //{
+            //    Console.WriteLine("Hello Aya");
+            //}
+            //else if (Name == "Yassmin")
+            //{
+            //    Console.WriteLine("Hello Yassmin");
+            //}
+            //else if (Name == "Maged")
+            //{
+            //    Console.WriteLine("Hello Maged");
+            //}
+
+            //// Using switch
+            //switch (Name)
+            //{
+            //    case "Ahmed":
+            //        Console.WriteLine("Hello Ahmed");
+            //        break;
+            //    case "Omar":
+            //        Console.WriteLine("Hello Omar");
+            //        break;
+            //    case "Aya":
+            //        Console.WriteLine("Hello Aya");
+            //        break;
+            //    case "Yassmin":
+            //        Console.WriteLine("Hello Yassmin");
+            //        break;
+            //    case "Maged":
+            //        Console.WriteLine("Hello Maged");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Hello, stranger!");
+            //        break;
+            //}
+            #endregion
         }
     }
 }
