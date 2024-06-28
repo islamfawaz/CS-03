@@ -787,6 +787,28 @@ namespace Assignment
             //    Console.WriteLine();
             //}
             #endregion
+
+            #region Question28
+
+            //Console.Write("Enter the size of the array: ");
+            //int size = int.Parse(Console.ReadLine());
+
+            //int[] arr = new int[size];
+
+            //Console.WriteLine("Enter the elements of the array:");
+            //for (int i = 0; i < size; i++)
+            //{
+            //    Console.Write($"Element {i}: ");
+            //    arr[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //Console.WriteLine("Reversed order array:");
+            //for (int i = size - 1; i >= 0; i--)
+            //{
+            //    Console.Write(arr[i] + " ");
+            //}
+            //Console.WriteLine();
+            #endregion
         }
        }
     }
