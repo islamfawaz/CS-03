@@ -728,9 +728,27 @@ namespace Assignment
             //}
 
             //Console.WriteLine("The longest distance between two equal cells is: " + maxDistance);
-        
 
-        #endregion
-    }
-}
+
+            #endregion
+
+
+
+            #region Question26
+            //Console.Write("Enter a list of space-separated words: ");
+            //string str = Console.ReadLine();
+
+            //string[] word = str.Split(' ');
+
+            //Array.Reverse(word);
+
+            //string reverse = string.Join(" ", word);
+
+            //Console.WriteLine(reverse);
+            #endregion
+
+
+
+        }
+       }
     }
