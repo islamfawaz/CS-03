@@ -399,6 +399,19 @@ namespace Demo03
 
             #endregion
 
+            #region Video14
+            // Declaration and instantiation of an integer array
+            int[] Numbers = new int[3]; // Creates an array of 3 integers
+
+            // Assigning values to array elements
+            Numbers[0] = 1;
+            Numbers[1] = 2;
+            Numbers[2] = 3;
+
+            // Outputting array information
+            Console.WriteLine($"The Length of Numbers = {Numbers.Length}");
+            Console.WriteLine($"The Number at index 1 of Numbers = {Numbers[1]}");
+            #endregion
 
         }
     }
