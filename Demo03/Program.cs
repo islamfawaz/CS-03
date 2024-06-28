@@ -298,6 +298,22 @@
             //}
 
             #endregion
+
+
+            // Region: Control Statements 2. Loop Statements [while, do...while]
+            #region Video11
+
+            //int Number;
+            //bool Flag;
+
+            //do
+            //{
+            //    Console.Write("Please Enter an Even Number: ");
+            //    // Number = int.Parse(Console.ReadLine());
+            //    // Flag = int.TryParse(Console.ReadLine(), out Number);
+            //} while (int.TryParse(Console.ReadLine(), out Number) || Number % 2 == 1);
+
+            #endregion
         }
     }
 }
