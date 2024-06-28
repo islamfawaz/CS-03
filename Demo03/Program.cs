@@ -430,10 +430,16 @@ namespace Demo03
             //    {
             //        Console.WriteLine($"Subject {j + 1} Mark: {Marks[i, j]}");
             //    }
-                #endregion
+            #endregion
+
+            #region Video18
+            int[][] Marks = new int[3][];
+            Marks[0] = new int[3] { 9, 8, 3 };
+            Marks[1] = new int[2] { 7, 2 };
+            Marks[2] = new int[1] { 5 };
+            #endregion
 
 
-
-            }
+        }
     }
 }
