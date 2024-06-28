@@ -748,7 +748,45 @@ namespace Assignment
             #endregion
 
 
+            #region Question27
 
+            //Console.Write("Enter the num of rows: ");
+            //int rows = int.Parse(Console.ReadLine());
+
+            //Console.Write("Enter the num of columns: ");
+            //int cols = int.Parse(Console.ReadLine());
+
+            //int[,] firstArr = new int[rows, cols];
+            //int[,] secondArr = new int[rows, cols];
+
+            //Console.WriteLine("Enter the first array:");
+            //for (int i = 0; i < rows; i++)
+            //{
+            //    for (int j = 0; j < cols; j++)
+            //    {
+            //        Console.Write($"Element [{i}, {j}]: ");
+            //        firstArr[i, j] = int.Parse(Console.ReadLine());
+            //    }
+            //}
+
+            //for (int i = 0; i < rows; i++)
+            //{
+            //    for (int j = 0; j < cols; j++)
+            //    {
+            //        secondArr[i, j] = firstArr[i, j];
+            //    }
+            //}
+
+            //Console.WriteLine("second array:");
+            //for (int i = 0; i < rows; i++)
+            //{
+            //    for (int j = 0; j < cols; j++)
+            //    {
+            //        Console.Write(secondArr[i, j] + "\t");
+            //    }
+            //    Console.WriteLine();
+            //}
+            #endregion
         }
        }
     }
