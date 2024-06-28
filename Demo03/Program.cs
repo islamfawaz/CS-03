@@ -276,6 +276,28 @@
             //    Console.WriteLine(i);
             //}
             #endregion
+
+            #region Video10
+
+            //int[] Numbers = { 9, 3, 10, 2, 8, 10, 6, 5, 1 };
+
+
+            //for (int i = 0; i < Numbers.Length / 5 /; i++)
+            //{
+            //    // if (i == 2)
+            //    //     break;
+            //    Numbers[i] += 10;
+            //    Console.WriteLine(Numbers[i]);
+            //    Console.WriteLine("******");
+            //}
+
+            //foreach (int number in Numbers)
+            //{
+            //    // number += 10; // This line is invalid because 'number' is a copy of the array element
+            //    Console.WriteLine(number);
+            //}
+
+            #endregion
         }
     }
 }
