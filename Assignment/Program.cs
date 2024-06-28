@@ -647,7 +647,7 @@ namespace Assignment
 
             //int[] arr = {2,43,22,51,66,12,79,76};
 
-      
+
             //int max = arr[0];
             //int min = arr[0];
 
@@ -698,6 +698,39 @@ namespace Assignment
             //    Console.WriteLine("The second largest element is: " + secLarge);
             //}
             #endregion
-        }
+
+
+            #region Question25
+            //Console.Write("Input the size of the array: ");
+            //int n = int.Parse(Console.ReadLine());
+
+            //int[] arr = new int[n];
+            //Console.WriteLine("Input the elements of the array:");
+            //for (int i = 0; i < n; i++)
+            //{
+            //    arr[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //int maxDistance = 0;
+
+
+            //for (int i = 0; i < n; i++)
+            //{
+            //    for (int j = i + 1; j < n; j++)
+            //    {
+            //        if (arr[i] == arr[j])
+            //        {
+            //            int distance = j - i;
+            //            if (distance > maxDistance)
+            //               maxDistance = distance;
+            //        }
+            //    }
+            //}
+
+            //Console.WriteLine("The longest distance between two equal cells is: " + maxDistance);
+        
+
+        #endregion
     }
+}
     }
