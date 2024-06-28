@@ -463,6 +463,34 @@ namespace Demo03
             //    Console.WriteLine(number);
             //}
             #endregion
+
+
+
+            #region Video18
+
+            //// Arr01.CopyTo(Arr02, 1);
+            //// int length = Arr01.Length;
+
+            //#endregion
+
+            //// Object Member Methods [Non-Static Methods]
+            //#region Object Member Methods [Non-Static Methods]
+
+            //// Arr01.GetValue(1); // Retrieves value at Arr01[1]
+            //Arr01.SetValue(100, 1); // Sets value 100 at Arr01[1]
+
+            //#endregion
+
+            //// Output Arr02 elements
+            //foreach (int number in Arr02)
+            //{
+            //    Console.WriteLine(number);
+            //}
+
+             #endregion
+
+
+
         }
     }
 }
