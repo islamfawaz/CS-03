@@ -641,8 +641,35 @@ namespace Assignment
             //}
             #endregion
 
+            //23- Write a program in C# Sharp to find maximum and minimum element in an array
+
+            #region Question23
+
+            //int[] arr = {2,43,22,51,66,12,79,76};
+
+      
+            //int max = arr[0];
+            //int min = arr[0];
+
+            //for (int i = 1; i < arr.Length; i++)
+            //{
+            //    if (arr[i] > max)
+            //    {
+            //        max = arr[i];
+            //    }
+            //    if (arr[i] < min)
+            //    {
+            //        min = arr[i];
+            //    }
+            //}
+
+            //Console.WriteLine("Maximum element  is: " + max);
+            //Console.WriteLine("Minimum element is: " + min);
+            #endregion
+
+
             //24- Write a program in C# Sharp to find the second largest element in an array.
-            #region Question25
+            #region Question24
 
             //int[] arr = { 100, 30, 19, 2,0, 21, 12, 3, 1 };
 
