@@ -1,4 +1,6 @@
-﻿namespace Demo03
+﻿using System.Text;
+
+namespace Demo03
 {
     internal class Program
     {
@@ -353,11 +355,51 @@
             //Name01 = "Yassmin"; // Changing Name01 to "Yassmin"
 
             //Console.WriteLine($"Name02: {Name02}"); // Outputs "Ahmed"
-       // }
+            // }
 
-        #endregion
+            #endregion
+
+            #region Video13
+
+            #region StringBuilder
+
+            //// StringBuilder is a Class [ReferenceType]
+            //// StringBuilder is Mutable String [Internally, is a Linked-List of Chars]
+
+            //StringBuilder Message; // Declare for Reference of type "StringBuilder"
+            //Message = new StringBuilder("Hello");
+
+            //Console.WriteLine($"Message: {Message}");
+            //Console.WriteLine($"HashCode of Message: {Message.GetHashCode()}");
+
+            //Message.Append(" Ahmed");
+            //Console.WriteLine("After StringBuilder Changed");
+            //Console.WriteLine($"Message: {Message}");
+            //Console.WriteLine($"HashCode of Message: {Message.GetHashCode()}");
+
+            //#endregion
+
+            //// Region: StringBuilder Methods
+            //#region StringBuilder Methods
+
+            //Message = new StringBuilder("Hello");
+
+            //Message.Append(" Ahmed");
+            //Message.AppendLine(" Nasr");
+            //Message.AppendLine("Your Age is 22");
+            //Message.Remove(0, 5);
+            //Message.Insert(0, "Hi");
+            //// Message.Clear();
+            //// Message.AppendFormat(" {0} : {1}", true, 'A');
+            //// Message.AppendJoin(';', new[] { "Hamda", "Hambozo" });
+
+            //Console.WriteLine(Message);
+
+            #endregion
+
+            #endregion
 
 
-    }
+        }
     }
 }
