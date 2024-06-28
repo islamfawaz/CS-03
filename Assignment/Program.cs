@@ -470,11 +470,11 @@ namespace Assignment
             //int x1 = Convert.ToInt32(Console.ReadLine());
             //int y1 = Convert.ToInt32(Console.ReadLine());
 
-            
+
             //int x2 = Convert.ToInt32(Console.ReadLine());
             //int y2 = Convert.ToInt32(Console.ReadLine());
 
-         
+
             //int x3 = Convert.ToInt32(Console.ReadLine());
             //int y3 = Convert.ToInt32(Console.ReadLine());
 
@@ -491,6 +491,42 @@ namespace Assignment
             //    Console.WriteLine("Points are not collinear");
             //}
             #endregion
+
+            //18- Within a company, the efficiency of workers is evaluated based on the duration required to complete a specific task. A worker's efficiency level is determined as follows: 
+            // -If the worker completes the job within 2 to 3 hours, they are considered highly efficient.
+            //- If the worker takes 3 to 4 hours, they are instructed to increase their speed.
+            //  - If the worker takes 4 to 5 hours, they are provided with training to enhance their speed.
+            //  - If the worker takes more than 5 hours, they are required to leave the company.
+            //To calculate the efficiency of a worker, the time taken for the task is obtained via user input
+            //from the keyboard.
+
+
+            #region Question18
+            //Console.WriteLine("Enter the time taken ");
+            //double time = double.Parse(Console.ReadLine());
+
+            //if (time >= 2 && time < 3)
+            //{
+            //    Console.WriteLine("Worker is highly efficient.");
+            //}
+            //else if (time >= 3 && time < 4)
+            //{
+            //    Console.WriteLine("Worker should increase speed.");
+            //}
+            //else if (time >= 4 && time < 5)
+            //{
+            //    Console.WriteLine("Worker should undergo training to enhance speed.");
+            //}
+            //else if (time >= 5)
+            //{
+            //    Console.WriteLine("Worker should leave the company.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid input. Time taken must be a positive number.");
+            //}
+            #endregion
+
         }
     }
 }
