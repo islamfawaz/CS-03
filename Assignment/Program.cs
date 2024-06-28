@@ -561,7 +561,6 @@ namespace Assignment
             #endregion
 
             //21 - Write a program in C# Sharp to merge two arrays of the same size sorted in ascending order.
-
             #region Question21
             //int[] arr1 = { 1, 3, 5, 7, 9 };
             //int[] arr2 = { 2, 4, 6, 8, 10 };
@@ -582,6 +581,96 @@ namespace Assignment
             //Console.WriteLine();
             #endregion
 
+
+            // 22 - Write a program in C# Sharp to count the frequency of each element of an array.
+            //first using frequency array ==>O(n^2)
+            #region Question22
+            //int[] arr = { 1, 1, 1, 3, 3, 2, 2, 5, 1 };
+            //int n = arr.Length;
+
+            //int[] uniqueElement = new int[n];
+            //int[] frequency = new int[n];
+            //int uniqueCount = 0;
+
+            //for (int i = 0; i < n; i++)
+            //{
+            //    int element = arr[i];
+            //    bool flag = false;
+            //    for (int j = 0; j < uniqueCount; j++)
+            //    {
+            //        if (uniqueElement[j] == element)
+            //       {
+            //            frequency[j]++;
+            //            flag = true;
+            //            break;
+            //        }
+            //    }
+
+            //    if (!flag)
+            //    {
+            //        uniqueElement[uniqueCount] = element;
+            //        frequency[uniqueCount] = 1;
+            //        uniqueCount++;
+            //    }
+            //}
+
+            //Console.WriteLine("Element\tFrequency");
+            //for (int i = 0; i < uniqueCount; i++)
+            //{
+            //    Console.WriteLine($"{uniqueElement[i]}\t{frequency[i]}");
+            //}
+            #endregion
+
+            //second using map(i know it from c++) ==>O(n)
+            #region Question22
+            //int[] arr = { 1, 1, 1, 3, 3, 2, 2, 5, 1 };
+
+            //Dictionary<int, int> frequencyMap = new Dictionary<int, int>();
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    if (frequencyMap.ContainsKey(arr[i]))
+            //        frequencyMap[arr[i]]++;
+            //    else
+            //        frequencyMap[arr[i]] = 1;
+
+            //}
+            //Console.WriteLine("Element\tFrequency");
+            //foreach (var part in frequencyMap)
+            //{
+            //    Console.WriteLine($"{part.Key}\t{part.Value}");
+            //}
+            #endregion
+
+            //24- Write a program in C# Sharp to find the second largest element in an array.
+            #region Question25
+
+            //int[] arr = { 100, 30, 19, 2,0, 21, 12, 3, 1 };
+
+            //int large = int.MinValue;
+            //int secLarge = int.MinValue;
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    if (arr[i] > large)
+            //    {
+            //        secLarge = large;
+            //        large = arr[i];
+            //    }
+            //    else if (arr[i] > secLarge && arr[i] != large)
+            //    {
+            //        secLarge = arr[i];
+            //    }
+            //}
+
+            //if (secLarge == int.MinValue)
+            //{
+            //    Console.WriteLine("There is no second largest element in the array.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("The second largest element is: " + secLarge);
+            //}
+            #endregion
         }
     }
     }
