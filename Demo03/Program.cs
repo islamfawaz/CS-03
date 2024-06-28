@@ -142,7 +142,7 @@
             //}
             #endregion
 
-            #region Video5
+            #region Video4
             //object input = new object();
             //input = 5; // Boxing
             //input = new Person() { Id = 100, Name = "Ahmed" };
@@ -169,8 +169,25 @@
             //        Console.WriteLine("Unknown input");
             //        break;
 
-                    #endregion
+            #endregion
 
-            }
+            #region Video5
+            // Prompt user for budget
+           // Console.Write("Please Enter Your Budget: ");
+            //string input = Console.ReadLine();
+
+            //if (int.TryParse(input, out int Budget))
+            //{
+            //    Console.WriteLine($"Your budget is: {Budget}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid input. Please enter a valid integer.");
+            //}
+            #endregion
+
+
+
+        }
     }
 }
