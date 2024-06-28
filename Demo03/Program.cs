@@ -413,6 +413,27 @@ namespace Demo03
             Console.WriteLine($"The Number at index 1 of Numbers = {Numbers[1]}");
             #endregion
 
-        }
+
+            #region Video15
+            //// Two-dimensional array declaration and initialization
+            //int[,] Marks = new int[2, 3] { { 1, 2, 3 }, { 4, 5, 6 } };
+
+            //Console.WriteLine($"The Length of Array = {Marks.Length}");
+            //Console.WriteLine($"The Count of Dimensions = {Marks.Rank}");
+
+            //Console.Clear();
+
+            //for (int i = 0; i < Marks.GetLength(0); i++)
+            //{
+            //    Console.WriteLine($"Student Number: {i + 1}");
+            //    for (int j = 0; j < Marks.GetLength(1); j++)
+            //    {
+            //        Console.WriteLine($"Subject {j + 1} Mark: {Marks[i, j]}");
+            //    }
+                #endregion
+
+
+
+            }
     }
 }
