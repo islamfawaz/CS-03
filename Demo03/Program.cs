@@ -209,6 +209,40 @@
             //        
             #endregion
 
-        }
+            #region Video7
+
+
+            // Switch Expression [Available in C# 8.0]
+            //string option = "1";
+            //string Message = option switch
+            //{
+            //    "1" => "Using Option 1",
+            //    "2" => "Using Option 2",
+            //    "3" => "Using Option 3",
+            //    _ => "Unsupported option"
+            //};
+            //Console.WriteLine(Message);
+
+            //Person person = new Person { Id = 10, Name = "Ahmed Nasr", Age = 24 };
+
+            //switch (person)
+            //{
+            //    case Person p when p.Id == 10 && p.Name == "Ahmed Nasr" && p.Age == 24:
+            //        Console.WriteLine("Hello Ahmed Nasr, Your Age is 24");
+            //        break;
+            //    case Person { Id: 10, Name: "Ahmed Nasr", Age: 24 }:
+            //        Console.WriteLine("Hello Ahmed Nasr, Your Age is 24");
+            //        break;
+            //    case Person { Age: 24 }:
+            //        Console.WriteLine("Hello, Anonymous. Your Age is 24");
+            //        break;
+            //    default:
+            //        break;
+            //}
+        
+    
+    #endregion
+
+}
     }
 }
