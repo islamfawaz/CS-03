@@ -173,7 +173,7 @@
 
             #region Video5
             // Prompt user for budget
-           // Console.Write("Please Enter Your Budget: ");
+            // Console.Write("Please Enter Your Budget: ");
             //string input = Console.ReadLine();
 
             //if (int.TryParse(input, out int Budget))
@@ -186,7 +186,28 @@
             //}
             #endregion
 
-
+            #region Video6
+            //// Using switch
+            //switch (Name)
+            //{
+            //    case "Ahmed" when age >22 && age <30:
+            //        Console.WriteLine("Hello Ahmed");
+            //        break;
+            //    case "Omar":
+            //        Console.WriteLine("Hello Omar");
+            //        break;
+            //    case "Aya":
+            //        Console.WriteLine("Hello Aya");
+            //        break;
+            //    case "Yassmin":
+            //        Console.WriteLine("Hello Yassmin");
+            //        break;
+            //    case "Maged":
+            //        Console.WriteLine("Hello Maged");
+            //        break;
+            //    default:
+            //        
+            #endregion
 
         }
     }
