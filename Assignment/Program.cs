@@ -1,6 +1,7 @@
 ﻿using static System.Runtime.InteropServices.JavaScript.JSType;
 using System.ComponentModel;
 using System.Drawing;
+using System;
 
 namespace Assignment
 {
@@ -558,6 +559,29 @@ namespace Assignment
             //}
             //Console.WriteLine(sum);
             #endregion
+
+            //21 - Write a program in C# Sharp to merge two arrays of the same size sorted in ascending order.
+
+            #region Question21
+            //int[] arr1 = { 1, 3, 5, 7, 9 };
+            //int[] arr2 = { 2, 4, 6, 8, 10 };
+
+            //int size = arr1.Length;
+
+            //int[] mergedArr = new int[size * 2]; 
+
+            //Array.Copy(arr1, 0, mergedArr, 0, size);
+            //Array.Copy(arr2, 0, mergedArr, size, size);
+
+            // Array.Sort(mergedArr);
+
+            //for (int i = 0; i < mergedArr.Length; i++)
+            //{
+            //    Console.Write(mergedArr[i] + " ");
+            //}
+            //Console.WriteLine();
+            #endregion
+
         }
     }
     }
