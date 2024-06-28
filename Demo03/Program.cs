@@ -6,6 +6,7 @@
         {
             public int Id { get; set; }
             public string Name { get; set; }
+            public int Age { get; set; }
         }
 
         static void Main(string[] args)
@@ -239,10 +240,24 @@
             //    default:
             //        break;
             //}
-        
-    
-    #endregion
 
-}
+
+            #endregion
+
+            #region Video8
+            //Person person = new Person { Id = 10, Name = "Ahmed Nasr", Age = 24 };
+            //string Message = "";
+
+            //// Switch statement
+            //Message = person switch
+            //{
+            //    { Id: 10, Name: "Ahmed Nasr", Age: > 24 and < 30 } => "Hello Ahmed Nasr, Your Age is between 25 and 29",
+            //    { Age: 30 } => "Hello ya Anonymous, Your Age is 30",
+            //    _ => "Unknown Person"
+            //};
+
+            //Console.WriteLine(Message);
+            #endregion
+        }
     }
 }
